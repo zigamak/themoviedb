@@ -1,6 +1,6 @@
 import React from "react";
 
-import {image} from './Thumb.styles';
+import {Image} from './Thumb.styles';
 
 const Thumb =({image, movieId, clickable}) => (
     <div>
