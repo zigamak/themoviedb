@@ -43,8 +43,8 @@ const MovieInfo = ({ movie }) => (
   </Wrapper>
 );
 
-MovieInfo.propTypes={
-  movie:PropTypes.object
+MovieInfo.propTypes = {
+  movie: PropTypes.object
 }
 
 export default MovieInfo;

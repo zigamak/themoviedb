@@ -9,14 +9,12 @@ import { Wrapper, Content, LogoImg, TMDBLogoImg } from './Header.styles';
 const Header = () => (
   <Wrapper>
     <Content>
-      <Link to='/' >
+      <Link to='/'>
         <LogoImg src={RMDBLogo} alt='rmdb-logo' />
       </Link>
-      
       <TMDBLogoImg src={TMDBLogo} alt='tmdb-logo' />
     </Content>
   </Wrapper>
 );
-
 
 export default Header;

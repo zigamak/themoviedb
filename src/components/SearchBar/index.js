@@ -17,10 +17,10 @@ const SearchBar = ({ setSearchTerm }) => {
 
     const timer = setTimeout(() => {
       setSearchTerm(state);
-    }, 500)
+    }, 500);
 
-    return () => clearTimeout(timer)
-  },[setSearchTerm, state])
+    return () => clearTimeout(timer);
+  }, [setSearchTerm, state]);
 
   return (
     <Wrapper>
@@ -37,8 +37,8 @@ const SearchBar = ({ setSearchTerm }) => {
   );
 };
 
-SearchBar.propTypes={
-  callback:PropTypes.func
-}
+SearchBar.propTypes = {
+  callback: PropTypes.func
+};
 
 export default SearchBar;
